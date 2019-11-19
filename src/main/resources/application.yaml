@@ -1,2 +1,4 @@
 server:
   port: 9080
+logging:
+  config: classpath:log4j2-spring-${log4j2.profile}.xml
